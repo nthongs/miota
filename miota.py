@@ -5,6 +5,7 @@
 # Feel free to used it in your own code
 # I this script I use PyOTA: https://github.com/iotaledger/iota.lib.py
 
+from iota import Iota
 
 def generate_seed():
     from random import SystemRandom
