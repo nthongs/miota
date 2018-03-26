@@ -13,6 +13,12 @@ def generate_seed():
     generator = SystemRandom()
     return u''.join(generator.choice(alpha9) for _ in range(length))
 
+def get_balance(seed, node):
+    api = Iota(node, seed)
+    acc_data = api.get_account_data()
+    return acc_data['balance']
+
+
 
 # Test function
 if __name__ == '__main__':
