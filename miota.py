@@ -3,7 +3,7 @@
 # I would like to define some small but useful function to support IOTA
 # I try to make it to be compatible with python 2 and python 3
 # Feel free to used it in your own code
-# I this script I use PyOTA: https://github.com/iotaledger/iota.lib.py
+# In this script I use PyOTA: https://github.com/iotaledger/iota.lib.py
 
 
 def generate_seed():
